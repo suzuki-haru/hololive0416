@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hololive GAMERS</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+    .group {
+      width: 200px;
+      height: 250px;
+    }
+    .member {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s ease;
+    }
+    .member:hover {
+      transform: translateY(-5px);
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    a.name-link {
+      display: inline-block;
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #0077cc;
+      transition: all 0.2s ease;
+    }
+    a.name-link:hover {
+      color: #004f99;
+      transform: scale(1.05);
+    }
+    a.name-link:active {
+      transform: scale(0.95);
+    }
+    p.role {
+      color: #888;
+      margin-bottom: 15px;
+    }
+    p.bio {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hololive GAMERS</h1>
+    <img src="https://prtimes.jp/i/30268/11/resize/d30268-11-854753-0.png"alt="團體" class="group"> <br/> 
+    <div class="team"> 
+      <!-- 成員 1 -->
+      <div class="member">
+        <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirakami-Fubuki_list_thumb.png" alt="成員1" class="avatar">
+        <a href="https://hololive.hololivepro.com/talents/shirakami-fubuki/" target="_blank" class="name-link">白上フブキ</a>
+        <p class="role">「こんこんきーつね！白上フブキです！」</p>
+      </div>
+
+      <!-- 成員 2 -->
+      <div class="member">
+        <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Ookami-Mio_thumb.png" alt="成員2" class="avatar">
+        <a href="https://hololive.hololivepro.com/talents/ookami-mio/" target="_blank" class="name-link">大神ミオ</a>
+        <p class="role">「こんばんみぉーん！大神ミオだよ～！」</p>
+      </div>
+
+      <!-- 成員 3 -->
+      <div class="member">
+        <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nekomata-Okayu_list_thumb.png" alt="成員3" class="avatar">
+        <a href="https://hololive.hololivepro.com/talents/nekomata-okayu/" target="_blank" class="name-link">猫又おかゆ</a>
+        <p class="role">「もぐもぐ～おかゆ～！」</p>
+      </div>
+
+      <!-- 成員 4 -->
+      <div class="member">
+        <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Inugami-Korone_list_thumb.png" alt="成員4" class="avatar">
+        <a href="https://hololive.hololivepro.com/talents/inugami-korone/" target="_blank" class="name-link">戌神ころね</a>
+        <p class="role">「ぉぁよ～！ゆびゆび～」</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
